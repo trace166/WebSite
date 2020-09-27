@@ -1,5 +1,4 @@
-# Mobile Communication Network Lab WebSite
-# 行動通訊網路實驗室網站
+# Mobile Communication Network Lab WebSite 行動通訊網路實驗室網站
 
 ### WebSite content list
   - About LAB(關於實驗室)

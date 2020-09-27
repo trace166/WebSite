@@ -1,0 +1,137 @@
+body,
+html {
+    font-family: 'Recursive', sans-serif;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    text-shadow: #6A6A6A 1px -2px;
+    font-weight: 700;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.main {
+    font-family: 'Recursive', sans-serif;
+    padding-top: .3em;
+}
+
+.main p {
+    margin-bottom: .5em;
+}
+
+td {
+    text-align: left;
+    padding: 4px;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul {
+    background-color: rgb(230, 230, 230);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+.menu {
+    display: flex;
+}
+
+.w3-dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer
+}
+
+.w3-dropdown-hover:hover .w3-dropdown-content {
+    display: block
+}
+
+.w3-dropdown-hover:first-child,
+.w3-dropdown-click:hover {
+    background-color: #ccc;
+    color: #000
+}
+
+.w3-dropdown-hover:hover>.w3-button:first-child,
+.w3-dropdown-click:hover>.w3-button:first-child {
+    background-color: #ccc;
+    color: #000
+}
+
+.w3-dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+.w3-check,
+.w3-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto
+}
+
+.w3-bar-block .w3-dropdown-hover,
+.w3-bar-block .w3-dropdown-click {
+    width: 100%
+}
+
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,
+.w3-bar-block .w3-dropdown-click .w3-dropdown-content {
+    min-width: 100%
+}
+
+.w3-bar-block .w3-dropdown-hover .w3-button,
+.w3-bar-block .w3-dropdown-click .w3-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
+.w3-bar .w3-dropdown-hover {
+    position: static;
+    float: left;
+}
